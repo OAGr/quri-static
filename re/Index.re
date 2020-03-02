@@ -5,36 +5,7 @@ let str = React.string;
 [@react.component]
 let make = () => {
   <div>
-    <h1> {"Gatsby" ++ {js| ❤ |js} ++ "ReasonML" |> str} </h1>
-    <p>
-      {"Use this starter to create static sites with Gatsby using ReasonML components."
-       |> str}
-    </p>
-    <h2> {"Features" |> str} </h2>
-    <ul>
-      <li>
-        <a href="https://github.com/reasonml/reason-react">
-          {"reason-react" |> str}
-        </a>
-        {" for type-safe React components in ReasonML" |> str}
-      </li>
-      <li>
-        <a href="https://github.com/SentiaAnalytics/bs-css">
-          {"bs-css" |> str}
-        </a>
-        {" for css-in-reason styling" |> str}
-      </li>
-    </ul>
-    <h2> {"Reference" |> str} </h2>
-    <ul>
-      <li>
-        {"see re/Header.re for example component implementation" |> str}
-      </li>
-      <li>
-        {"see re/types/Gatsby.re for example BuckleScript bindings to Gatsby module"
-         |> str}
-      </li>
-    </ul>
+    <h1> {"The Quantified Uncertainty Research Institute (QURI)" |> str} </h1>
   </div>;
 };
 

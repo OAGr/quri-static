@@ -23,9 +23,9 @@ const Layout = ({ children }) => (
           meta={[
             {
               name: 'description',
-              content: 'Static site built with Gatsbyjs, ReasonML, and React.',
+              content: 'A nonprofit focussed on the use of forecasting for important problems.',
             },
-            { name: 'keywords', content: 'reasonml, bucklescript, react' },
+            { name: 'keywords', content: 'Uncertainty, Nonprofit' },
           ]}
         >
           <html lang="en" />

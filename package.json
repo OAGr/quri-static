@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-reasonml",
-  "description": "Gatsby starter to create static sites using type-safe ReasonML.",
+  "name": "quri-static",
+  "description": "The homepage of QURI",
   "version": "2.0.0",
-  "author": "Ian Wilson <iwilsonq@gmail.com>",
+  "author": "Ozzie Gooen",
   "dependencies": {
     "bs-css": "^11.0.0",
     "bs-date-fns": "^0.1.6",
@@ -39,6 +39,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iwilsonq/gatsby-starter-reasonml"
+    "url": "https://github.com/OAGr/quri-static"
   }
 }
