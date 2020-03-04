@@ -5,6 +5,7 @@ var Css = require("bs-css/src/Css.js");
 var React = require("react");
 var Gatsby = require("gatsby");
 var Utils$ReactTemplate = require("./Utils.bs.js");
+var Settings$ReactTemplate = require("./Settings.bs.js");
 
 function str(prim) {
   return prim;
@@ -21,7 +22,7 @@ var link = Css.style(/* :: */[
         Css.hover(/* :: */[
               Css.textDecoration(/* underline */131142924),
               /* :: */[
-                Css.textDecorationColor(Css.red),
+                Css.textDecorationColor(Settings$ReactTemplate.Header.color),
                 /* [] */0
               ]
             ]),
@@ -29,10 +30,7 @@ var link = Css.style(/* :: */[
       ]
     ]);
 
-var h2 = Css.style(/* :: */[
-      Css.color(Css.red),
-      /* [] */0
-    ]);
+var h2 = Settings$ReactTemplate.Header.defaults;
 
 var p = Css.style(/* :: */[
       Css.color(Css.black),

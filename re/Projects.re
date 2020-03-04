@@ -13,8 +13,12 @@ let make = () => {
           color(hex("223f63")),
         ])
       )>
-      {"The Quantified Uncertainty Research Institute" |> str}
+      {"Team" |> str}
     </h1>
+    <h2> {"Foretold" |> str} </h2>
+    <h2> {"Ken (Alpha)" |> str} </h2>
+    <h2> {"DistPlus (Alpha)" |> str} </h2>
+    <h2> {"AI Forecasting Dictionary" |> str} </h2>
   </div>;
 };
 

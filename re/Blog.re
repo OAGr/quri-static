@@ -24,7 +24,10 @@ let make = (~posts) => {
          />
        )
     |> React.array;
-  <div> <h1> {"Blog" |> str} </h1> renderPosts </div>;
+  <div>
+    <h1 className=Settings.Header.defaults> {"Blog" |> str} </h1>
+    renderPosts
+  </div>;
 };
 
 let default = make;

@@ -13,8 +13,17 @@ let make = () => {
           color(hex("223f63")),
         ])
       )>
-      {"The Quantified Uncertainty Research Institute" |> str}
+      {"Team" |> str}
     </h1>
+    <h2> {"Ben Goldhaber" |> str} </h2>
+    <strong> {"Project Lead" |> str} </strong>
+    <p> {"Text XYZ" |> str} </p>
+    <h2> {"Ozzie Gooen" |> str} </h2>
+    <strong> {"Affiliated Researcher" |> str} </strong>
+    <p> {"Text XYZ" |> str} </p>
+    <h2> {"Jacob Lagerros" |> str} </h2>
+    <strong> {"Affiliated Researcher" |> str} </strong>
+    <p> {"Text XYZ" |> str} </p>
   </div>;
 };
 

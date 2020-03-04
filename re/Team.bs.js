@@ -8,7 +8,7 @@ function str(prim) {
   return prim;
 }
 
-function Index(Props) {
+function Team(Props) {
   return React.createElement("div", undefined, React.createElement("h1", {
                   className: Css.style(/* :: */[
                         Css.fontFamily("Merriweather"),
@@ -20,12 +20,12 @@ function Index(Props) {
                           ]
                         ]
                       ])
-                }, "The Quantified Uncertainty Research Institute"));
+                }, "Team"), React.createElement("h2", undefined, "Ben Goldhaber"), React.createElement("strong", undefined, "Project Lead"), React.createElement("p", undefined, "Text XYZ"), React.createElement("h2", undefined, "Ozzie Gooen"), React.createElement("strong", undefined, "Affiliated Researcher"), React.createElement("p", undefined, "Text XYZ"), React.createElement("h2", undefined, "Jacob Lagerros"), React.createElement("strong", undefined, "Affiliated Researcher"), React.createElement("p", undefined, "Text XYZ"));
 }
 
-var make = Index;
+var make = Team;
 
-var $$default = Index;
+var $$default = Team;
 
 exports.str = str;
 exports.make = make;

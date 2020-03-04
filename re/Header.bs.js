@@ -4,9 +4,10 @@
 var Css = require("bs-css/src/Css.js");
 var React = require("react");
 var Gatsby = require("gatsby");
+var Settings$ReactTemplate = require("./Settings.bs.js");
 
 var header = Css.style(/* :: */[
-      Css.backgroundColor(Css.hex("db4d3f")),
+      Css.backgroundColor(Css.hex("223f63")),
       /* :: */[
         Css.marginBottom(Css.px(16)),
         /* [] */0
@@ -42,7 +43,24 @@ var link = Css.style(/* :: */[
       Css.color(Css.white),
       /* :: */[
         Css.textDecoration(Css.none),
-        /* [] */0
+        /* :: */[
+          Css.marginLeft(/* `em */[
+                22632,
+                1.0
+              ]),
+          /* [] */0
+        ]
+      ]
+    ]);
+
+var headerLink = Css.style(/* :: */[
+      Settings$ReactTemplate.Header.fontFamily,
+      /* :: */[
+        Css.color(Css.white),
+        /* :: */[
+          Css.textDecoration(Css.none),
+          /* [] */0
+        ]
       ]
     ]);
 
@@ -53,6 +71,7 @@ var Styles = {
   content: content,
   h1: h1,
   link: link,
+  headerLink: headerLink,
   nav: nav
 };
 
@@ -66,11 +85,19 @@ function Header(Props) {
                       className: h1
                     }, React.createElement(Gatsby.Link, {
                           to: "/",
-                          className: link,
+                          className: headerLink,
                           children: siteTitle
                         })), React.createElement("nav", {
                       className: nav
                     }, React.createElement(Gatsby.Link, {
+                          to: "/team",
+                          className: link,
+                          children: "Team"
+                        }), React.createElement(Gatsby.Link, {
+                          to: "/projects",
+                          className: link,
+                          children: "Projects"
+                        }), React.createElement(Gatsby.Link, {
                           to: "/blog",
                           className: link,
                           children: "Blog"
