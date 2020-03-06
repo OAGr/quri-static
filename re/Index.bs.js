@@ -20,7 +20,7 @@ function Index(Props) {
                           ]
                         ]
                       ])
-                }, "The Quantified Uncertainty Research Institute"));
+                }, "Quantified Uncertainty Research Institute"), React.createElement("p", undefined, "We are a technical nonprofit improving the state of the art of general purpose forecasting, with the purpose of maximizing sentient wellbeing."));
 }
 
 var make = Index;
