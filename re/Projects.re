@@ -5,20 +5,29 @@ let str = React.string;
 [@react.component]
 let make = () => {
   <div>
-    <h1
-      className=Css.(
-        style([
-          fontFamily("Merriweather"),
-          fontWeight(`black),
-          color(hex("223f63")),
-        ])
-      )>
-      {"Team" |> str}
-    </h1>
-    <h2> {"Foretold" |> str} </h2>
-    <h2> {"Ken (Alpha)" |> str} </h2>
-    <h2> {"DistPlus (Alpha)" |> str} </h2>
-    <h2> {"AI Forecasting Dictionary" |> str} </h2>
+    <h1 className=Settings.Header.defaults> {"Projects" |> str} </h1>
+    <div>
+      <strong> {"Foretold" |> str} </strong>
+      <p>
+        {"Foretold is a prediction tournament, similar to that discussed in Superforecasting."
+         |> str}
+      </p>
+      <a href="https://www.foretold.io/"> {"Website" |> str} </a>
+      <a href="https://github.com/foretold-app/foretold">
+        {"Github" |> str}
+      </a>
+    </div>
+    <div>
+      <strong> {"Ken (Alpha)" |> str} </strong>
+      <a href="https://kenstandard.com/"> {"Website" |> str} </a>
+      <a href="https://github.com/kenstandard/ken-js"> {"Github" |> str} </a>
+    </div>
+    <div>
+      <strong> {"DistPlus (Alpha)" |> str} </strong>
+      <a href="https://github.com/foretold-app/estiband">
+        {"Github" |> str}
+      </a>
+    </div>
   </div>;
 };
 

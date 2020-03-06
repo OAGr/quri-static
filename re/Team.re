@@ -5,16 +5,7 @@ let str = React.string;
 [@react.component]
 let make = () => {
   <div>
-    <h1
-      className=Css.(
-        style([
-          fontFamily("Merriweather"),
-          fontWeight(`black),
-          color(hex("223f63")),
-        ])
-      )>
-      {"Team" |> str}
-    </h1>
+    <h1 className=Settings.Header.defaults> {"Team" |> str} </h1>
     <h2> {"Ben Goldhaber" |> str} </h2>
     <strong> {"Project Lead" |> str} </strong>
     <p> {"Text XYZ" |> str} </p>

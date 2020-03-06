@@ -16,7 +16,7 @@ let make = () => {
       {"Quantified Uncertainty Research Institute" |> str}
     </h1>
     <p>
-      {"We are a technical nonprofit improving the state of the art of general purpose forecasting, with the purpose of maximizing sentient wellbeing."
+      {"We create advanced forecasting infrastructure to support globally-beneficial initiatives."
        |> str}
     </p>
   </div>;
